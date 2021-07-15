@@ -2,7 +2,6 @@
   <div id="app">
 <Inicio></Inicio>
 <Footer></Footer>
-   
     
   </div>
 </template>
