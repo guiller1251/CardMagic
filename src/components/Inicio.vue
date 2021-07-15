@@ -263,9 +263,7 @@ export default {
         .get("https://api.magicthegathering.io/v1/cards") ////llamado a la api de magic
         .then((response) => {
           this.todos = response.data.cards;
- console.log(this.todos);
           var parsedobj = JSON.parse(JSON.stringify(this.todos));
-          console.log(parsedobj);
           const unicos = [];
           const unicosPoder = [];
 
